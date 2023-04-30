@@ -1,0 +1,32 @@
+body {
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: rgb(63, 119, 192);
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 5px;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+.card-body {
+    padding: 0px;
+    margin: 5px;
+}
+.card{
+    background-color: rgb(187, 138, 220);
+    box-shadow: 4px 2px 10.3px;
+}
+.card:hover {
+    background-color: rgb(191, 97, 201);
+    cursor: pointer;
+    box-shadow: 1px 1px 0.9px;
+    
+}
+.col-sm-6.mb-3.mb-sm-0 {
+    display: inline;
+    overflow-wrap: normal;
+}
