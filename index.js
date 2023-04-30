@@ -1,7 +1,7 @@
 
 const inquirer = require("inquirer");
 const fs = require("fs");
-const Manager = require("./lib/Manager");
+const Manager = require("./lib/manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const template = require("./src/template");
@@ -243,7 +243,7 @@ function promptTeamMembers() {
 function init() {
     console.log("Welcome to the Team Generator!");
     console.log("Use `npm run reset` to reset the dist/folder");
-    console.log("Please build your team! 👥");
+    console.log("Please build your team! ");
     promptData();
 };
 init();

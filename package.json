@@ -1,25 +1,26 @@
 {
-    "name": "team-manager2",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "directories": {
-      "lib": "lib"
+  "name": "ben-armstrong-oop--team-profile-generator",
+  "version": "1.0.0",
+  "description": "## Your Task Your task is to build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.  Because this Challenge will require the use of the `Inquirer` package, ensure that you install and use Inquirer version 8.2.4. To do so, use the following command in your project folder: `npm i inquirer@8.2.4`. Testing is key to making code maintainable, so you will also write a unit test for every part of your code and ensure that it passes each test. Because this application will not be deployed, you will need to provide a link to a walkthrough video that demonstrates its functionality and all of the tests passing. You will need to submit a link to the video AND add it to the readme of your project.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
     },
     "scripts": {
       "test": "jest"
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/"
+      "url": "git+https://github.com/Rippi9"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/"
+      "url": "https://github.com/Rippi9"
     },
-    "homepage": "https://github.com/",
+    "homepage": "https://github.com/Rippi9",
     "dependencies": {
       "bootstrap-icons": "^1.10.3",
       "chalk": "^5.2.0",
